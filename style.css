@@ -1,0 +1,280 @@
+.page{
+width:1340px;
+box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+border-radius: 15px;
+background-color: #ffffff;
+padding-top: 50px;
+margin: 0 auto;
+margin-top: 100px;
+}
+.mypage{
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+background-color: rgba(24, 49, 144, 0.5);
+margin: 0 ;
+background: linear-gradient(180deg, #136dffc9 49%, #ffffff 50%);
+   } 
+.z{	
+width: 533px;
+height: 75px;
+color: #363b5d;
+font-family: "Geometria - Extra Bold";
+font-size: 64px;
+font-weight: 700;
+margin: 0 70% 0 30%;
+ }
+.fiz-ur{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(40px, auto);
+}  
+.fizbut{
+  grid-column: 1 / 2;
+  grid-row: 1;
+width: 116px;
+height: 40px;
+border-radius: 5px 0 0 5px;
+border: 1px solid #363b5d;
+background-color: #363b5d;
+  position: relative;
+  left: 560px ;
+}
+.urbut{
+	grid-column: 2 / 2;
+    grid-row: 1 ;
+width: 130px;
+height: 40px;
+border-radius: 5px;
+border: 2px solid #363b5d;
+  position: relative;
+  right: 3px ;
+}
+.fbt{
+width: 74px;
+height: 15px;
+color: #ffffff;
+font-family: "Geometria - Medium";
+font-size: 14px;
+font-weight: 500;
+}
+.ubt{
+width: 74px;
+height: 16px;
+color: #363b5d;
+font-family: "Geometria - Medium";
+font-size: 14px;
+font-weight: 500;
+}
+.persdata{
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(10px, auto);
+}
+.nameper{
+color: #939aa3;
+font-family: "Geometria - Medium";
+}
+.niper{
+	grid-column: 1 / 4;
+    grid-row: 2 ;
+width: 200px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+}
+.surper{
+color: #939aa3;
+font-family: "Geometria - Medium";
+position: relative;
+  left: 50px;
+}
+.siper{
+	grid-column: 2 / 4;
+    grid-row: 2 ;
+width: 200px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+position: relative;
+  left: 50px;
+}
+.comnaper{
+	grid-column: 1 / 4;
+    grid-row: 3 ;
+color: #939aa3;
+font-family: "Geometria - Medium"; 
+}
+.ciper{
+	grid-column: 1 / 4;
+    grid-row: 4 ;
+width: 420px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+}
+.emailper{
+	grid-column: 1 / 4;
+    grid-row: 5 ;
+color: #939aa3;
+font-family: "Geometria - Medium";    
+}
+.eiper{
+	grid-column: 1 / 4;
+    grid-row: 6 ;
+width: 420px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+}
+.telper{
+	grid-column: 1 / 4;
+    grid-row: 7 ;
+color: #939aa3;
+font-family: "Geometria - Medium";
+}
+.tiper{
+	grid-column: 1 / 4;
+    grid-row: 8 ;
+width: 420px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+}
+.logoper{
+	grid-column: 3 / 4;
+    grid-row: 4 ;
+color: #939aa3;
+font-family: "Geometria - Medium";
+position: relative;
+  left: 20px;
+}
+.couper{
+	grid-column: 4 / 4;
+    grid-row: 1 ;
+color: #939aa3;
+font-family: "Geometria - Medium";
+}
+.coiper{
+	grid-column: 4 / 4;
+    grid-row: 2 ;
+width: 420px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+}
+.sityper{
+	grid-column: 4 / 4;
+    grid-row: 3 ;
+color: #939aa3;
+font-family: "Geometria - Medium";
+}
+.sitper{
+	grid-column: 4 / 4;
+    grid-row: 4 ;
+width: 200px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+}
+.regper{
+	grid-column: 4 / 4;
+    grid-row: 3 ;
+color: #939aa3;
+font-family: "Geometria - Medium";
+position: relative;
+  left: 220px;
+}
+.riper{
+	grid-column: 4 / 4;
+    grid-row: 4 ;
+width: 200px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+position: relative;
+  left: 220px;
+}
+.liveper{
+	grid-column: 4 / 4;
+    grid-row: 5 ;
+color: #939aa3;
+font-family: "Geometria - Medium";
+}
+.liper{
+	grid-column: 4 / 4;
+    grid-row: 6 ;
+width: 420px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+}
+.postper{
+	grid-column: 4 / 4;
+    grid-row: 7 ;
+color: #939aa3;
+font-family: "Geometria - Medium";
+}
+.piper{
+	grid-column: 4 / 4;
+    grid-row: 8 ;
+width: 420px;
+height: 20px;
+border-radius: 5px;
+background-color: #a8a9ab;
+opacity: 0.2;
+}
+.q{
+	margin: 50px 60px 65px 140px;
+}
+
+.zq{
+width: 471px;
+height: 75px;
+color: #363b5d;
+font-family: "Geometria - Extra Bold";
+font-size: 64px;
+font-weight: 700;
+margin: 0 67% 0 33%;
+}
+.zqq{
+width: 279px;
+height: 20px;
+color: #363b5d;
+font-family: "Gilroy Light";
+font-size: 18px;
+font-weight: 300;
+margin: 0 60% 0 40%;
+}
+.forbutton{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.pay{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+ }
+.cards{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+.card{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.lastbutton{
+	width: 150px;
+	margin: 0 auto;
+	display: block;	
+}
